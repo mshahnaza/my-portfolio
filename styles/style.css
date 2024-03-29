@@ -161,6 +161,10 @@ h1 {
     border-radius: 50%;
     display: inline-block;
 }
+figcaption {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
 
 @media screen and (max-width: 600px) {
     img[alt="my-photo"] {
@@ -187,15 +191,16 @@ h1 {
     .about-me-info {
         margin: 0 0 0 0;
         text-align: center;
+        padding-left: 15px;
         font-family: "Varela Round";
         color: rgb(32, 24, 24);
     }
     .imgContainer {
         display: block;
-        padding-left: 5px;
+        padding-left: 10px;
     }
     #hobbie-photo {
-        padding-left: 5px;
+        padding-left: 10px;
     }
     .my-background {
         margin-top: 70px;
